@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top-contain{
+    background-color: #1F2937;
+    color:#f9faf8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
