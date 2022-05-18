@@ -6,8 +6,8 @@ body{
 .top-contain{
     background-color: #1F2937;
     color:#f9faf8;
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
 
 }
 
@@ -19,8 +19,8 @@ max-width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 75px;
 }
 
 ul {
@@ -29,6 +29,8 @@ ul {
 
 li{
     display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1{
@@ -38,6 +40,7 @@ h1{
 
 a{
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .main{
@@ -57,7 +60,7 @@ a{
 }
 
 .button {
-    background-color: blue;
+    background-color: #3882F6;
     border: none;
     color: white;
     padding: 10px;
@@ -77,3 +80,34 @@ a{
     font-size: 24px;
     font-weight: bold;
 }
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 80px;
+}
+
+.info{ 
+    flex: 1 1 0%;
+    max-width: 210px;
+    text-align: center;
+}
+
+.info img{
+    max-width: 200px;
+    border:solid 4px #3882F6;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 30px 0;
+  }
+
+  .testimonials{
+      background-color: #e5e7eb;
+      padding: 100px auto;
+  }
