@@ -11,6 +11,10 @@ body{
 
 }
 
+.main-img{
+    width: 400px;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -29,6 +33,20 @@ li{
 
 a{
     text-decoration: none;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+.btn-signup{
+    max-width: 80px;
 }
 
 .logo{
