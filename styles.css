@@ -6,13 +6,13 @@ body{
 .top-contain{
     background-color: #1F2937;
     color:#f9faf8;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 
 }
 
 .main-img{
-    width: 400px;
+max-width: 50%;
 }
 
 .header {
@@ -31,12 +31,18 @@ li{
     display: inline;
 }
 
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+
 a{
     text-decoration: none;
 }
 
 .main{
     display: flex;
+
     
 }
 
@@ -45,8 +51,26 @@ a{
     flex-direction: column;
     padding-right: 150px;
 }
-.btn-signup{
+
+.main-img{
+    margin-left: auto;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.button-signup{
     max-width: 80px;
+    border-radius: 12px;
 }
 
 .logo{
