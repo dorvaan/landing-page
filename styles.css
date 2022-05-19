@@ -145,12 +145,19 @@ a {
 
 /* Sign Up Part */
 
+.action{
+    display: flex;
+    justify-content: center;
+}
 .sign-up {
     background-color: #3882F6 ;
     margin: 50px 200px;
     padding: 10px 80px;
     display: flex;
+    align-self: center;
     align-items: center;
+    width: 50%;
+    justify-content: center;
     border-radius: 12px;
     border-color: none;
 }
@@ -177,7 +184,8 @@ h3 {
 }
 
 .signs-button{
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 button {
     color: #fff;
@@ -186,7 +194,7 @@ button {
     border-radius: 8px;
     background-color: #3882F6;
     padding: 5px 25px;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 
